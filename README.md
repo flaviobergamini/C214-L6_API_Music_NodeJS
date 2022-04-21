@@ -51,12 +51,12 @@ $ cd API
 #### Instalando as dependências
 Na pasta API, instale as dependências do NodeJS usando o comando:
 ```
-npm install
+$ npm install
 ```
 #### Iniciando Projeto
 Após as instalações das dependências do projeto serem concluídas, inicie o projeto usando o comando:
 ```
-npm start
+$ npm start
 ```
 #### Rotas
 Dentro do Postman, ou outro cliente HTTP, utilize a URL:

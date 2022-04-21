@@ -1,6 +1,6 @@
 # C214-L6_API_Music_NodeJS
 
-<h1 align="center">Exercício de C214-L6 - API de música em NodeJS</h1>
+<h1 align="center">Exercício de C214-L6 - API de Músicas em NodeJS</h1>
 
 <p align="center">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW37ZpcD40st4W7b50uneItqSvLJ8XVdNtCAqw0wW9SOlkTWYAJfn09D7u3sL3fMGdNro&usqp=CAU">
@@ -11,7 +11,7 @@ Imagem retirada do site Mira Flores: http://www.aemiraflores.edu.pt/joomla2/
 
 <p>Projeto de C214-L6, laboratório da disciplina de Engenharia de Software.</p>
 <p>Projeto de uma API de Músicas com quatro endpoints para adicionar e buscar, atualizar e deletar informações no banco de dados.</p>
-<p>Nesse repositório existe um cliente simples construído com Python, ele realiza o CRUD na API e pode ser usado tanto como aplicação de exemplo, quanto para testes de endpoits substituíndo o Postman, Insomnia ou outro software cliente HTTP.</p>
+<p>Nesse repositório existe um cliente simples construído com Python, ele realiza o CRUD na API e pode ser usado tanto como aplicação de exemplo, quanto para testes de endpoits como alternativa ao Postman, Insomnia ou outro software cliente HTTP.</p>
 
 #### Projeto
 - Essa API foi desenvolvida em JavaScript usando o framework NodeJS. O banco de dados no qual ela se comunica é o MongoDB Atlas. 
@@ -33,16 +33,15 @@ Imagem retirada do site Mira Flores: http://www.aemiraflores.edu.pt/joomla2/
 - [MongoDB](https://www.mongodb.com/cloud/atlas/lp/try2?utm_content=rlsavisitor&utm_source=google&utm_campaign=gs_americas_rlsamultirest_search_core_brand_atlas_desktop_rlsa&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=14412646314&adgroup=131761122132&gclid=Cj0KCQjw8_qRBhCXARIsAE2AtRYhQ9pEkjwdAhEn_dJbdPPKRTUtw5NzNf6zzq49qGy7K2n7S6ggQOQaAnhAEALw_wcB)
 
 
-
 Observação: Você pode usar a IDE e o criente HTTP de sua preferência, o Visual Studio Code, o Postman ou o cliente Python são apenas sugestões.
 
 Clone o repositório em seu computador para poder acessar o projeto:
 ```
-$ git clone https://github.com/flaviobergamini/C214-L6_API_JavaScript.git
+$ git clone https://github.com/flaviobergamini/C214-L6_API_Music_NodeJS.git
 ```
 Para acessar o repositório clonado usando o terminal, digite: 
 ```
-$ cd C214-L6_API_JavaScript
+$ cd C214-L6_API_Music_NodeJS
 ```
 Para acessar os arquivos de código pelo terminal, digite:
 ```
@@ -105,7 +104,7 @@ O envio das informações é feito por meio da Body em um objeto JSON contendo o
 }
 ```
 
-#### Preparação do ambiente no computador para executar o cliente Python
+## Preparação do ambiente no computador para executar o cliente Python
 Após a instalação do interpretador Python em seu computador, abra um terminal de linha de comando dentro da pasta "Client". Ao executar o comando para listar os arquivos, deverá encontrar o arquivo main.py e requirements.txt.
 
 * Criando ambiente virtual para instalar as dependências do Python de maneira isolada:

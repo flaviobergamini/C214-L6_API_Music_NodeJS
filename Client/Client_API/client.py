@@ -5,6 +5,8 @@ import json
 class API(object):
     def __init__(self, url):
         self.url = url
+
+        
     def get(self):
         request = requests.get(f"{self.url}/list/")
         print('-'*6 + "GET" + '-'*6)

@@ -37,26 +37,26 @@ Observação: Você pode usar a IDE e o criente HTTP de sua preferência, o Visu
 
 Clone o repositório em seu computador para poder acessar o projeto:
 ```
-$ git clone https://github.com/flaviobergamini/C214-L6_API_Music_NodeJS.git
+git clone https://github.com/flaviobergamini/C214-L6_API_Music_NodeJS.git
 ```
 Para acessar o repositório clonado usando o terminal, digite: 
 ```
-$ cd C214-L6_API_Music_NodeJS
+cd C214-L6_API_Music_NodeJS
 ```
 Para acessar os arquivos de código pelo terminal, digite:
 ```
-$ cd API
+cd API
 ```
 
 #### Instalando as dependências
 Na pasta API, instale as dependências do NodeJS usando o comando:
 ```
-$ npm install
+npm install
 ```
 #### Iniciando Projeto
 Após as instalações das dependências do projeto serem concluídas, inicie o projeto usando o comando:
 ```
-$ npm start
+npm start
 ```
 #### Rotas
 Dentro do Postman, ou outro cliente HTTP, utilize a URL:
@@ -109,23 +109,23 @@ Após a instalação do interpretador Python em seu computador, abra um terminal
 
 * Criando ambiente virtual para instalar as dependências do Python de maneira isolada:
 ```
-$ python -m venv venv
+python -m venv venv
 ```
 * Iniciando ambiente virtual no Windows:
 ```
-$ venv\Scripts\activate
+venv\Scripts\activate
 ```
 * Iniciando ambiente virtual no Linux ou MAC:
 ```
-$ source venv\bin\activate
+source venv\bin\activate
 ```
 * Instalando as dependências no ambiente virtual:
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 * Iniciando cliente Python (É necessário estar com a API NodeJS ativada):
 ```
-$ python main.py
+python main.py
 ```
 ## :question: Dúvidas
 Envie um email ao desenvolvedor: flaviohenrique@gec.inatel.br
